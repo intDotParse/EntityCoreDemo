@@ -1,25 +1,25 @@
 # EntityCoreDemo
 
 # Needed packages:
-> Microsoft.EntityFrameworkCore
-> Microsoft.EntityFrameworkCore.Sqlserver
-> Microsoft.EntityFrameworkCore.Tools
+> Microsoft.EntityFrameworkCore <br/>
+> Microsoft.EntityFrameworkCore.Sqlserver <br/>
+> Microsoft.EntityFrameworkCore.Tools <br/>
 
 # package manager console script
-> PM> add-migration MyInitialMigration
-> Build started...
-> Build succeeded.
-> To undo this action, use Remove-Migration.
-> PM> update-database
-> Build started...
-> Build succeeded.
-> Done.
-> PM> add-migration "added navigation and collection properties, relationship"
-> Build started...
-> Build succeeded.
-> To undo this action, use Remove-Migration.
-> PM> update-database
-> Build started...
-> Build succeeded.
-> Done.
-> PM> 
+> PM> add-migration MyInitialMigration <br/>
+> Build started... <br/>
+> Build succeeded.<br/>
+> To undo this action, use Remove-Migration. <br/>
+> PM> update-database <br/>
+> Build started... <br/>
+> Build succeeded.<br/>
+> Done. <br/>
+> PM> add-migration "added navigation and collection properties, relationship" <br/>
+> Build started... <br/>
+> Build succeeded. <br/>
+> To undo this action, use Remove-Migration. <br/>
+> PM> update-database <br/>
+> Build started...<br/>
+> Build succeeded. <br/>
+> Done.<br/>
+> PM>  <br/>
